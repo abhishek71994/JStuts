@@ -7,11 +7,21 @@
     <title>Local Storage</title>
 </head>
 <body>
-    <Label for="username">Enter username</Label>
-        <input type="text" id="user" placeholder="username">
-    <Label for="password">Enter password</Label>
-        <input type="password" id="pass" placeholder="password">
-        <button id="submit">Register</button>
+
+<form action="signIn.html" name="form_name" id="form_id" class="form_class">
+    <h2>Register</h2>
+    <label>Name :</label>
+    <input type="text" name="name" id="name" placeholder="Name" />
+    <label>Email :</label>
+    <input type="text" name="email" id="email" placeholder="Valid Email" />
+    <label>Fav. Food :</label>
+    <input type="text" name="food" id="food" placeholder="Valid Email" />
+    <label>Password :</label>
+    <input type="text" name="email" id="pass" placeholder="Valid Email" />
+    <input type="button" name="submit_id" id="btn_id" value="Register" onclick="AddUser()" />
+</form>
+
+
 </body>
 <script src="script.js"></script>
 </html>

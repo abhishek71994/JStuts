@@ -9,11 +9,16 @@
 </head>
 <body>
     <h1>Login</h1>
-<Label for="username">Enter username</Label>
-<input type="text" id="userLogin" placeholder="username">
-<Label for="password">Enter password</Label>
-<input type="password" id="passLogin" placeholder="password">
-<button id="singIn">Register</button>
+<form action="#"  name="form_name" id="form_id" class="form_class">
+    <h2>Javascript Form Submit Example</h2>
+    <label>Email :</label>
+    <input type="text" name="email" id="emailLogin" placeholder="Valid Email" />
+    <label>Password :</label>
+    <input type="password" name="password" id="passLogin" placeholder="password" />
+    <input type="button" name="submit_id" id="loginID" value="Submit by Id" onclick="FindUser()" />
+</form>
+
+
 </body>
 <script src="script.js"></script>
 </html>
